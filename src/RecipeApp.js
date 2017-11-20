@@ -7,7 +7,9 @@ import './RecipeApp.css';
 class RecipeApp extends Component {
   render() {
     return (
-      <Recipe />
+      <div className='App'>
+        <Recipe title='pasta' ingredients={["flour", "water"]} />
+      </div>
     );
   }
 }
